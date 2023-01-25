@@ -1,0 +1,602 @@
+/* Importação fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/* CSS resert */
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #000000;
+}
+
+/* Layout */
+.container {
+    margin: 0 auto;
+
+}
+main h1{
+    text-align: center;
+}
+.fleBoxApiPrincipal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:    flex-start;
+    
+}
+.flexBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+    padding: 10px 50px;
+}
+.centerboxip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+    font-size: 2.5em;
+
+   
+    
+}
+pre{
+    margin: 10px 30px 2px 30px;
+}
+.centerboxip span{
+  
+    font-size: 0.3em;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex2 {
+    display: flex;
+    align-items: center;
+
+}
+.flex3 {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+
+}
+.flex4 {
+    display: flex;
+  
+    flex-direction: row-reverse;
+    
+    justify-content: center;
+}
+
+/* topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+
+}
+
+address{
+    background: #01153b;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+    
+}
+address a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section{
+    height: 50vh;
+
+    /* border: solid 1px #ff0000; */
+
+    /* background-image: url(/IMG/Fundo/earth-g50cd99fec_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+main div{
+    /* border: solid 1px #ff0000; */
+  
+}
+  /* main h1{
+  
+  } */
+.centerboxip{
+
+}
+
+
+/* smartphone portrait vertical  */
+/* cabeçalho */
+header {
+    height: 60px;
+}
+
+@media (max-width: 1180px){
+   header{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 100%;
+        background-color: #ffffff;
+        
+    }
+}
+
+.logoMenu img {
+    width: 45px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    padding: 18px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+
+    height: 100vh;
+    position: fixed;
+    top: 44px;
+    right: -100%;
+    width: max-content;
+    transition: all 0.2s;
+    padding: 10px;
+
+    font-weight: 400;
+
+
+}
+
+
+
+#check:checked~ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 15px;
+    border-bottom: solid 1px #a9a9a9;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* main {
+    height: 10vh;
+     background-image: url(/IMG/Fundo/earth-g50cd99fec_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  
+} */
+
+
+footer {
+
+ 
+    height: 1px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+
+  font-size: 0.8em;
+
+border: 0;
+margin-bottom: 0;
+padding-top: 10px;
+}
+
+@media (max-width: 480px){
+    
+address {
+    font-size: 0.8em;
+    
+
+    display: flex;
+    
+}
+address #contado{
+    
+   
+    
+    margin-left: 15px;
+    padding: 5px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+
+}
+
+
+address #iconeMapa{
+width: 150px;
+margin-bottom: 5px;
+}
+
+address #endereco .linkEmail{
+   
+    margin-top: 30px;
+}
+address #endereco .linkEmail span{
+   
+    margin-left: 6px;
+}
+
+address #imgLocal{
+    display: none;
+}
+address #contado span{
+ margin-left: 6px;
+}
+
+address div img {
+    width: 40px;
+    margin-bottom: -13px;
+}
+
+address  #dados{
+    margin-top: 40px;
+text-align: center;
+   
+ }
+ #googleMaps iframe{
+     border-radius: 50px;
+ }
+ address p {
+    line-height: 10px;
+    }
+}
+/* fim max wi 540*/
+
+
+address #googleMaps{
+    display: none;
+
+}
+
+/* smartphone  Landscape  horizotal  */
+@media (min-width: 576px) {
+
+    /* codigo vai ser add de acordo com as regras */
+
+
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+
+    address {
+        padding-top: 20px;
+        font-size: 1em;
+      
+    }
+    address a span {
+        padding: 4px;
+
+      
+      
+    }
+    address div img {
+        width: 35px;
+
+        margin-bottom: -13px;
+    }
+    
+    
+    
+    address #dados{
+       margin-top: 80px;
+    }
+    #googleMaps iframe{
+        border-radius: 50px;
+    }
+
+
+    address #iconeMapa{
+        display: none;
+
+    }
+    address #googleMaps{
+        display: inline;
+    }
+   address p {
+    line-height: 5px;
+   }
+
+   .flex4 {
+    gap: 30px;
+}
+
+
+   
+
+
+}
+
+
+/* Tablet  portrait vertical  */
+@media (min-width: 768px) {
+
+    /* codigo vai ser add de acordo com as regras */
+
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+
+    /* destaque */
+    main {
+        height: 50vh;
+    }
+
+    @media (max-width: 900px){
+
+        footer p{
+            font-size: 1.5em;
+        }
+    }
+
+
+}
+
+/* Tablet  Landscape  horizotal   */
+@media (min-width: 992px) {
+
+    /* codigo vai ser add de acordo com as regras */
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+
+    main {
+        height: 40vh;
+    }
+
+    address {
+        padding-top: 20px;
+        font-size: 1.6em;
+      
+    }
+    address a span {
+        padding: 4px;
+      
+    }
+    address div img {
+        width: 35px;
+
+        margin-bottom: -13px;
+    }
+    
+    
+    
+    address #dados{
+       margin-top: 80px;
+    }
+    #googleMaps iframe{
+        border-radius: 50px;
+    }
+
+
+    address #iconeMapa{
+        display: none;
+
+    }
+    address #googleMaps{
+        display: inline;
+    }
+   address p {
+    line-height: 5px;
+   }
+
+   .flex4 {
+    gap: 30px;
+}
+@media (max-width: 1195px){
+
+    footer p{
+        font-size: 1.7em;
+    }
+}
+
+
+
+
+}
+
+/* PC  */
+@media (min-width: 1200px) {
+
+    /* codigo vai ser add de acordo com as regras */
+
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+
+    header {
+        height: 90px;
+    }
+
+    .logoMenu img {
+        width: 74px;
+        margin-top: 8px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a {
+        color: #343538;
+    }
+
+    nav ul li a:hover {
+        color: #000000;
+        border-bottom: solid 1px #007070;
+        transition-property: border;
+        font-size: 1.1em;
+
+        transition-property: font-size;
+        transition-duration: 1s;
+        transition-delay: 0.1s;
+
+    }
+    address {
+        padding-top: 20px;
+        font-size: 1em;
+      
+    }
+    address a span {
+        padding: 4px;
+      
+    }
+    address div img {
+        width: 35px;
+
+        margin-bottom: -13px;
+    }
+    
+    
+    
+    address #dados{
+       margin-top: 80px;
+    }
+    #googleMaps iframe{
+        border-radius: 50px;
+    }
+
+
+    address #iconeMapa{
+        display: none;
+
+    }
+    address #googleMaps{
+        display: inline;
+    }
+   address p {
+    line-height: 5px;
+   }
+
+   .flex4 {
+    gap: 60px;
+}
+
+
+}
+
+
+/* .divContainerMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+
+   
+
+    padding: 0.5em;
+
+    cursor: default;
+
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgMapsPrincipal{
+    display: flex;
+  
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    background: #ffffff;
+    color: #000000;
+
+    font-size: 0.8em;
+    font-weight: 300;
+
+    
+}
+
+.divContainerRegiao{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.5em;
+
+
+    border: solid 1px #ff0000;
+    background: rgba(255, 255, 255, 0.7);
+
+    margin-left: 0.5em;
+    padding: 1em;
+    
+    height: max-content;
+    width: max-content;
+    min-width: 150px;
+    min-height: 150px;
+} */
