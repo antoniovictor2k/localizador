@@ -45,11 +45,7 @@ main h1{
     border: solid 1px #ff0000;
 } */
 
-section {
 
-    
-
-}
 section .flexBox{
 
 padding: 20px 10px;
@@ -171,10 +167,7 @@ section{
     background-color: #dfdfdf;
     
 }
-main div{
-    /* border: solid 1px #ff0000; */
-  
-}
+
   /* main h1{
   
   } */
@@ -505,10 +498,8 @@ address #googleMaps{
 
         padding-top: 10px;
     }
-/* 
-    main h1 {
-        
-    } */
+
+   
 
     .flexBox{
         padding-top: 80px;
@@ -611,64 +602,14 @@ address #googleMaps{
     gap: 60px;
 }
 
-
-}
-
-
-/* .divContainerMenu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5em;
-
-   
-
-    padding: 0.5em;
-
-    cursor: default;
-
-    font-weight: 500;
-    background: rgba(255, 255, 255, 0.4);
-
-    font-family: 'Roboto', sans-serif;
-}
-
-.imgMapsPrincipal{
-    display: flex;
-  
-}
-footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-
-    background: #ffffff;
-    color: #000000;
-
-    font-size: 0.8em;
-    font-weight: 300;
-
+main  {
+    margin-bottom: 100px;
     
+} 
+section{
+    height: 60vh;
 }
 
-.divContainerRegiao{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 0.5em;
+}
 
 
-    border: solid 1px #ff0000;
-    background: rgba(255, 255, 255, 0.7);
-
-    margin-left: 0.5em;
-    padding: 1em;
-    
-    height: max-content;
-    width: max-content;
-    min-width: 150px;
-    min-height: 150px;
-} */
