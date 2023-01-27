@@ -15,7 +15,7 @@
     <link rel="icon" href="IMG/iconePrincipal/gps.png">
 </head>
 
-<body>
+<body onload="chamafuncoes()">
     <!-- Cabeçalho -->
     <header id="inicio">
 
@@ -55,13 +55,40 @@
                 IP 
             </span> 
             </div>
+
+            <div class="flexBox flexBoxSegundario">
+
+                <div>Latitude<pre id="latit">050505</pre></div>
+                <div>longitude<pre id="longi">9303939</pre></div>
+                <div>Continente <pre id="contin">America do Sul</pre></div>
+            </div>
+
             </div>
         </main>
     <!-- sobre -->
-    <section>
-        <div class="container">
+    <section class="section1">
+        <h1>Clima do IP</h1>
+        <div class="flexBoxApiPrincipal">
+            <div class="flexBox">
 
-            <!-- <h6>Antonio victor</h6> -->
+                <div>Umidade<pre id="humid">74%</pre></div>
+                <div>Direção/Vento<pre id="direcaoVento">140</pre></div>
+                <div>Turno<pre id="curre">Dia</pre></div>
+            </div>
+
+            <div class="centerboxip">
+                <div class="boxTemperatura">
+                    <pre id="temper">37ºC</pre>
+                    <span>Temperatura</span>
+                </div>
+            </div>
+
+    <div class="flexBox flexBoxSegundario">
+
+        <div>Nascer do sol<pre id="nascerDoSol">4:59 AM</pre></div>
+        <div>Vento rápido<pre id="ventoRapido">0.20km</pre></div>
+        <div>Pôr do sol<pre id="porDoSol">5:59 PM</pre></div>
+    </div>
         </div>
     </section>
     <!-- baixa app -->
