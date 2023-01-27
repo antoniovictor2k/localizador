@@ -52,6 +52,11 @@ document.getElementById("ventoRapido").innerHTML = json.results.wind_speedy;
 };
 
 
+// function chamafuncoes() {
+//     localizarSeuLocal()
+//     getTempo()
+
+// }
 function chamafuncoes() {
     localizarSeuLocal()
     getTempo()
