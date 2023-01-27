@@ -49,5 +49,5 @@ document.getElementById("ventoRapido").innerHTML = json.results.wind_speedy;
 
     
 };
-  getTempo()
+ 
 
