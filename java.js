@@ -1,4 +1,5 @@
 
+
 async function localizarSeuLocal() {
     
     const uri = ("https://api.hgbrasil.com/geoip?format=json-cors&key=3a69decb&address=remote&precision=falses");
@@ -23,7 +24,7 @@ document.getElementById("contin").innerHTML = json.results.continent;
 
 
 }
- localizarSeuLocal();
+
 async function getTempo(){
    
     
@@ -49,5 +50,10 @@ document.getElementById("ventoRapido").innerHTML = json.results.wind_speedy;
 
     
 };
- 
 
+
+function chamafuncoes() {
+    localizarSeuLocal()
+    getTempo()
+
+}
