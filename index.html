@@ -26,6 +26,11 @@
                 <img src="IMG/iconePrincipal/gps.png" alt="GPS" class="imgLogo">
             </div>
 
+            <div class="tituloIP">
+                Seu IP:
+                <span class="tituloAPI" id="enderecoIp"></span>
+            </div>
+
             <h3 class="tituloMenu">Localizador de IP</h3>
 
         </div>
@@ -36,62 +41,42 @@
 
 
     <div class="fleBoxApiPrincipal">
-        <div class="flexBox">
 
-
-            <div class="flexCard">
-                <div>Rua:
-                    <span class="tituloAPI" id="rua"></span>
-                </div>
-                <div>Bairro:
-                    <span class="tituloAPI" id="bairro"></span>
-                </div>
-                <div>Cidade:
-                    <span class="tituloAPI" id="cidade"></span>
-                </div>
-            </div>
-
-            <div class="flexCard">
-
-                <div> Estado:
-                    <span class="tituloAPI" id="estado"></span>
-                </div>
-                <div> Região:
-                    <span class="tituloAPI" id="regiao"></span>
-                </div>
-                <div>País:
-                    <span class="tituloAPI" id="pais"></span>
-                </div>
-            </div>
-
-            <div class="flexCard">
-
-                <div>CEP:
-                    <span class="tituloAPI" id="cep"></span>
-                </div>
-                <div>
-                    IP:
-                    <span class="tituloAPI" id="enderecoIp"></span>
-                </div>
-            </div>
+        <div class="flexCard">
+            Rua:
+            <span class="tituloAPI" id="rua"> </span>,
+            Bairro:
+            <span class="tituloAPI" id="bairro"></span>,
+            Cidade:
+            <span class="tituloAPI" id="cidade"></span>
         </div>
 
 
-        <div id="map" class="mapStyle" style="width: 40%; height: 300px;"></div>
+        <div id="map" class="mapStyle" style="width: 70%; height: 400px;"></div>
 
+        <div class="flexCard">
+
+            Estado:
+            <span class="tituloAPI" id="estado"></span>,
+
+            Região:
+            <span class="tituloAPI" id="regiao"></span>,
+
+            País:
+            <span class="tituloAPI" id="pais"></span>,
+
+            CEP:
+            <span class="tituloAPI" id="cep"></span>
+
+        </div>
     </div>
 
 
-    <!-- <footer>
-        <div class="container">
+    <footer>
             <div id="copyright">
-                <p>&#169;2022 - Desenvolvedor Antonio Victor</p>
+                <p>Desenvolvedor @antoniovictor2k</p>
             </div>
-            <div id="social">
-
-            </div>
-        </div>
-    </footer> -->
+    </footer>
 
 
     <script src="API.js"></script>
