@@ -24,7 +24,7 @@ Este projeto foi desenvolvido com o objetivo de fornecer aos usuários uma manei
 
 ## Como Usar
 
-1. Acesse o site através do navegador: [URL DO SEU SITE]
+1. Acesse o site através do navegador: [Localizador](antoniovictorlocalizador.netlify.app)
 
 2. O site automaticamente detectará o endereço IP e exibirá as informações disponíveis na tela.
 
