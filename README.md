@@ -10,7 +10,7 @@ Este projeto foi desenvolvido com o objetivo de fornecer aos usuários uma manei
 
 ### Desktop 
 
-<img src="/assets/Telas/desktop.png" alt="Tela inicial do Aplicativo Transporte Acadêmico" width="1000" height="700">
+<img src="/assets/Telas/desktop.png" alt="Tela inicial do Aplicativo Transporte Acadêmico" width="1600" height="955">
 
 ### Smartphone 
 
