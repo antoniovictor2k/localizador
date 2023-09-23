@@ -10,28 +10,51 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/estiloIndex.css">
-    <title>Localizador IP</title>
+    <link rel="stylesheet" href="src/Style/Styles.css">
+    <title>Localizador</title>
     <meta name="description"
         content="Web site com finalidade de localzar sua lozalição atual e seu endereço IP automaticamente ao acessar o site.">
-    <link rel="icon" href="IMG/iconePrincipal/gps.png">
+    <link rel="icon" href="assets/gps.png">
 </head>
 
-<body onload="chamafuncoes()">
+<body onload="localizarSeuLocal()">
     <!-- Cabeçalho -->
     <header id="inicio">
 
-        <div class="container flex menuPrincipal">
-            <div class="logoMenu">
-                <img src="IMG/iconePrincipal/gps.png" alt="GPS" class="imgLogo">
-            </div>
+        <div class="desktop">
 
-            <div class="tituloIP">
-                Seu IP:
-                <span class="tituloAPI" id="enderecoIp"></span>
-            </div>
+            <div class="flex ">
+                <div class="logoMenu">
+                    <img src="assets/gps.png" alt="GPS" class="imgLogo">
+                </div>
 
-            <h3 class="tituloMenu">Localizador de IP</h3>
+                <div class="tituloIP">
+                    Seu IP:
+                    <span class="tituloAPI" id="enderecoIp"></span>
+                </div>
+
+                <h3 class="tituloMenu">Localizador</h3>
+
+            </div>
+        </div>
+
+        <div class="smartphone">
+
+            <div class="flex">
+                <div class="logoMenu flew-smart-header">
+                    <img src="assets/gps.png" alt="GPS" class="imgLogo">
+                    <h3 class="tituloMenu">Localizador</h3>
+                </div>
+
+
+                <div class="tituloIP-smart">
+                    <div class="divIP">
+                        Seu IP:
+                        <span class="tituloAPI" id="enderecoIp2"></span>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
     </header>
@@ -43,43 +66,52 @@
     <div class="fleBoxApiPrincipal">
 
         <div class="flexCard">
-            Rua:
-            <span class="tituloAPI" id="rua"> </span>,
-            Bairro:
-            <span class="tituloAPI" id="bairro"></span>,
-            Cidade:
-            <span class="tituloAPI" id="cidade"></span>
+            <div>
+                Rua: <span class="tituloAPI" id="rua"></span>,
+            </div>
+            <div>
+                Bairro: <span class="tituloAPI" id="bairro"></span>,
+            </div>
+            <div>
+                Cidade: <span class="tituloAPI" id="cidade"></span>
+            </div>
         </div>
 
 
-        <div id="map" class="mapStyle" style="width: 70%; height: 400px;"></div>
+        <div id="map" class="mapStyle"></div>
 
         <div class="flexCard">
+            <div>
+                Estado:
+                <span class="tituloAPI" id="estado"></span>,
+            </div>
+            <div>
 
-            Estado:
-            <span class="tituloAPI" id="estado"></span>,
+                Região:
+                <span class="tituloAPI" id="regiao"></span>,
+            </div>
+            <div>
 
-            Região:
-            <span class="tituloAPI" id="regiao"></span>,
-
-            País:
-            <span class="tituloAPI" id="pais"></span>,
-
-            CEP:
-            <span class="tituloAPI" id="cep"></span>
+                País:
+                <span class="tituloAPI" id="pais"></span>,
+            </div>
+            <div>
+                CEP:
+                <span class="tituloAPI" id="cep"></span>
+            </div>
 
         </div>
     </div>
 
 
     <footer>
-            <div id="copyright">
-                <p>Desenvolvedor @antoniovictor2k</p>
-            </div>
+        <div id="copyright">
+            <p>Desenvolvedor @antoniovictor2k</p>
+        </div>
     </footer>
 
 
-    <script src="API.js"></script>
+    <script src="src/API.js"></script>
 </body>
 
 </html>
