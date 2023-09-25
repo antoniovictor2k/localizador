@@ -47,7 +47,7 @@ const localizarSeuLocal = async () => {
   }
 
   const uri =
-    "https://api.hgbrasil.com/geoip?format=json-cors&key=3a69decb&address=remote&precision=falses";
+    "https://api.hgbrasil.com/geoip?format=json-cors&key=89c2f172&address=remote&precision=falses";
   const encodedURI = encodeURI(uri);
   const resposta = await fetch(encodedURI);
   const json = await resposta.json();
